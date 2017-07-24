@@ -1,3 +1,13 @@
 .test{
 	color:blue;
+	font-family: 'Scope One', serif;
+
+}
+
+body{
+	/*change color and font with Client's choices here*/
+	color:blue;
+	font-family: 'Scope One', serif;
+	text-align:center;
+
 }
