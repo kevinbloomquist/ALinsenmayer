@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Alysia Linsenmayer LICSW</title>
 <!-- Bootstrap -->
-
+<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script href = "http://getbootstrap.com/getting-started/#download-cdn" ></script>
 <!-- Main CSS -->
 	<link href="main.css" rel="stylesheet">
 <!-- jQuery CDN -->
@@ -17,33 +19,108 @@
 
 </head>
 <body>
-<!-- Container element -->
-<div class="parallax"></div>
-<!-- remove -->
-<div class = "parallax1 jumbotron">
-</div>
-<!-- end test remove -->
+<!-- Begin Nav bar -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">AL</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Therapy <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Mindfullness</a></li>
+        <li><a href="#">Yoga</a></li>
+        <li><a href="#">About</a></li>
+
+
+        <!-- <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a> -->
+         <!--  <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul> -->
+    <!--   <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form> -->
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul> -->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- End Nav bar -->
+<!-- Begin Jumbotron -->
+	<div class="jumbotron">
+	  <div class="container">
+	  	<h1>A.LINSENMAYER LICSW</h1>
+		<h2>THERAPY | MINDFULLNESS | YOGA</h2>
+	  </div>
+	</div>
+<!-- begin Container element -->
+<div class = "container-fluid">
+	<div class = "parallax" id = "parallax1">
+	</div>
 <!-- Therapy block -->
-<div class = "bodySection" id = "therapy">
-	<h1>Therapy</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi debitis asperiores qui quibusdam est maiores, fugiat accusantium neque, quos pariatur. Deleniti vero laborum cumque suscipit ea quisquam, explicabo rem.</p>	
-</div>
+	<div class = "col-med-12" id = "therapy">
+		<h1>THERAPY</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi debitis asperiores qui quibusdam est maiores, fugiat accusantium neque, quos pariatur. Deleniti vero laborum cumque suscipit ea quisquam, explicabo rem.</p>	
+	</div>
 <!-- Parallax -->
-<div class = "parallax2">
-</div>
+	<div class = "parallax" id = "parallax2">
+	</div>
 <!-- Mindfullness block -->
-<div class = "bodySection" id = "mindfullness">
-	<h1>Mindfullness</h1>
+<div class = "col-med-12" id = "mindfullness">
+	<h1>MINDFULLNESS</h1>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, commodi quia sed fuga modi dolores cum et numquam, cumque illum nobis consequatur voluptatum libero quaerat voluptatibus aspernatur aperiam tempore nihil.</p>
 </div>
-<div class = "parallax3">
+
+<div class = "parallax" id = "parallax3">
 </div>
-<div class = "bodySection" id = "yoga">
-	<h1>Yoga</h1>
+
+<div class = "col-med-12" id = "yoga">
+	<h1>YOGA</h1>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, ab accusamus reprehenderit molestiae obcaecati aspernatur nihil. Nostrum eius tempora dolor aspernatur tenetur explicabo accusamus id itaque beatae veritatis. Quas, voluptate!</p>
 </div>
 
+<div class = "parallax" id = "parallax4">
+</div>
 
+<div class = "col-med-12" id = "about">
+	<h1>ABOUT</h1>
+	<p>Alysia Linsenmayer blah blah bla biobiobio......
+	</br>email</br>Phone</br>Address</br>I can do a form here and link everything to directly to email or google maps etc</p>
+	</div>
+</div>
+<!-- End Container-fluid -->
 
 
 <!-- script tags -->
