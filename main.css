@@ -6,6 +6,7 @@ body{
 	text-align:center;
 
 }
+
 h1 p{
 	margin:0px;
 	border:0px;
@@ -68,5 +69,10 @@ span.border {
     .parallax {
         background-attachment: scroll;
     }
+
+    /*responsive for small screens*/
+.jumbotron .container h2{
+		display: none;
+}
 }
 
