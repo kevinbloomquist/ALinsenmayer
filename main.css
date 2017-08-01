@@ -1,6 +1,6 @@
 
 body{
-	/*change color and font with Client's choices here*/
+	/*change color scheme and font with Client's choices here and add compatibilty tags moz safari etc.*/
 	color:white;
 	font-family: 'Scope One', serif;
 	text-align:center;
@@ -64,15 +64,15 @@ span.border {
 	/* The image used */
     background-image: url("https://cdn.pixabay.com/photo/2015/04/20/13/10/rock-731140_960_720.jpg");
 }
-
+/*responsive rules for small screens*/
 @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
     }
 
     /*responsive for small screens*/
-.jumbotron .container h2{
-		display: none;
+	.jumbotron .container h2{
+		font-size:1rem;
 }
 }
 
